@@ -16,4 +16,9 @@ module ApplicationHelper
 
       end
   end
+
+  def copyright_generator
+    DevcampViewTool::Renderer.copyright "Amanda Robinson", "All rights reserved"
+  end
 end
+
